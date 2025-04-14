@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #CFBCFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#card {
+    height: 600px;
+    width: 300px;
+    background-color: aliceblue;
+    background-position: center;
+    object-fit: contain;
+
+    position: relative;
+    text-align: center;
+    border-radius: 2rem;
+    border: 7px solid;
+    cursor: pointer;
+
+}
+
+.camera {
+    height: 20px;
+    width: 100px;
+    background-color: black;
+    border-radius: 3px 3px 10px 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom:1rem;
+
+
+}
+
+
+
+.storya{
+   
+    height: 120px;
+    width: 100%;
+    margin-top: 3rem;
+    /* border-bottom: 1px solid; */
+    white-space: nowrap;
+    overflow-x:auto;
+    background-color:aliceblue;
+
+}
+.storya::-webkit-scrollbar{
+    display: none;
+
+}
+.photo-wrapper {
+    
+    height: 65px;
+    width: 65px;
+    
+    padding: 2.4px ;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin: 0.2rem;
+    background: F;
+    background: linear-gradient(60deg, rgba(0, 0, 0, 1) 0%, rgba(252, 201, 0, 1) 0%, rgba(252, 201, 0, 1) 20%, rgba(221, 59, 60, 1) 47%, rgba(198, 63, 236, 1) 76%);
+
+    display: inline-block;
+  
+}
+
+.photo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+}
+
+
+/* h5{
+   
+    margin: 0 1rem  ;
+    display: inline;
+} */
+
+
+#full-screen{
+    height:520px ;
+    width: 287px;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: none;
+    border-radius: 0.5rem;
+}
+#full-screen.active {
+    display: block;
+    opacity: 1;
+}
+
+#bar{
+    height:30px;
+    width: 280px;
+    
+    bottom: 1%;
+    margin-left:0.3rem ;
+    border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+
+     position: absolute;
+}
+ #bar1{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 2px;
+}
+#bar2{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#bar3 {
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 15px solid black;
+    border-radius:2px ;
+   
+}
+
+.my-box {
+    height: 370px;
+    width: 287px;
+  
+    position:absolute;
+    margin-top: 8rem;
+}
+
+p{
+    position: absolute;
+}
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.insta-title {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 20px;
+    color: #262626;
+    font-weight: normal;
+    margin-top:  20px;
+    padding: 10px;
+    position: absolute;
+}
